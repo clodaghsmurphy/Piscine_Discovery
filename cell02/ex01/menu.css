@@ -1,0 +1,231 @@
+body {
+    background: linear-gradient(#e66465, #9198e5) no-repeat center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: auto;
+  
+    
+}
+
+.navigation
+{
+    background-color: white;
+    height: 4em;
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.nav-container{
+    display: flex;
+    align-items: flex-end;
+}
+.burger{
+    max-height: 2.5em;
+}
+
+.nav-list{
+    display:flex;
+  
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+a {
+    font-family: oswald;
+
+    text-decoration: none;
+    color: black
+}
+
+.sncf
+{
+    position: absolute;
+    right: 0;
+    margin-top: 4em;
+    height: 12em;
+    width: 12em;
+    position: absolute;
+    float: left;
+}
+
+ul{
+    justify-content: right;
+
+    list-style: none;
+    float: right;
+    margin: 1em;
+    padding-right: 1em;
+    
+}
+li {
+    justify-content: right;
+    position: relative;
+    
+}
+
+.nav-dropdown{
+    position: absolute;
+    margin: auto;
+    display: none;
+    background: #FFFAFA;
+background: linear-gradient(to bottom, #FFFAFA 0%, #F0EBEB 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFAFA), color-stop(100%, #F0EBEB));
+background: -webkit-linear-gradient(top, #FFFAFA 0%, #F0EBEB 100%);
+background: -moz-linear-gradient(top, #FFFAFA 0%, #F0EBEB 100%);
+background: -o-linear-gradient(top, #FFFAFA 0%, #F0EBEB 100%);
+background: -ms-linear-gradient(top, #FFFAFA 0%, #F0EBEB 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFAFA', endColorstr='#F0EBEB', GradientType=0);
+border: 1px solid #E1DCDC;
+box-shadow: inset 0 1px 0 #FFFFFF;
+-webkit-box-shadow: inset 0 1px 0 #FFFFFF;
+-moz-box-shadow: inset 0 1px 0 #FFFFFF;
+border-radius: 10px;
+    z-index: 1;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.dropdown:hover .nav-dropdown
+{
+    display: block;
+}
+
+
+.burger:hover{
+    transform: scale(1.3);
+}
+
+.main{
+    margin-top: 15%;
+  }
+  
+  .st0{fill:none}
+  .st2{fill:#5d89af}
+  .st3{fill:#709abf}
+  .st4,.st6{
+    fill:#fff;
+    stroke:#b3dcdf;
+    stroke-miterlimit:10
+  }
+  .st6{
+    stroke:#5d89af;
+    stroke-width:2
+  }
+  .st7,.st8,.st9{
+    stroke:#709abf;
+    stroke-miterlimit:10
+  }
+  
+  .st7{
+    stroke-width:5;
+    stroke-linecap:round;
+    fill:none
+  }
+  .st8,.st9{
+    fill:#fff
+  }
+  .st9{
+    fill:none
+  }
+  .st10{
+    
+  }
+  
+  #cloud1{
+    animation: cloud003 15s linear infinite;
+  }
+  
+  #cloud2{
+    animation: cloud002 25s linear infinite;
+  }
+  
+  #cloud3{
+    animation: cloud003 20s linear infinite;
+  }
+  
+  #cloud4{
+    animation: float 4s linear infinite;
+  }
+  
+  #cloud5{
+    animation: float 8s linear infinite;
+  }
+  
+  #cloud7{
+    animation: float 5s linear infinite;
+  }
+  
+  #tracks{
+    animation: slide 650ms linear infinite;
+  }
+  
+  #bumps{
+    animation: land 10000ms linear infinite;
+  }
+  
+  @keyframes jig {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(1px); }
+      100% { transform: translateY(0px); }
+  }
+  
+  #car-layers{
+    animation: jig 0.35s linear infinite;
+  }
+  
+  @keyframes land {
+      from { transform: translateX(0); }
+      to { transform: translateX(1000px); }
+  }
+  
+  
+  @keyframes slide {
+      from { transform: translateX(0px); }
+      to { transform: translateX(100px); }
+  }
+  
+  /* @keyframes cloudFloat {
+    0% { transform: translateX(0) translateY(3px); }
+    100% { transform: translateX(1000px) translateY(0); }
+  } */
+  
+  @keyframes cloud001 {
+    0% { transform: translateX(-1000px) translateY(3px); }
+    100% { transform: translateX(1000px) translateY(0); }
+  }
+  
+  @keyframes cloud002 {
+    0% { transform: translateX(-1000px) translateY(3px); }
+    100% { transform: translateX(1000px) translateY(0); }
+  }
+  
+  @keyframes cloud003 {
+    0% { transform: translateX(-1000px) translateY(3px); }
+    100% { transform: translateX(1000px) translateY(0); }
+  }
+  
+  @keyframes float {
+      0% { transform: translateY(0px) translateX(0); }
+      50% { transform: translateY(8px) translateX(5px); }
+      100% { transform: translateY(0px) translateX(0); }
+  }
+  
+  #bracefront, #braceback{
+    animation: braces 1s linear infinite;
+  }
+  
+  @keyframes braces {
+      0% { transform: translateX(-2px); }
+    25% { transform: translateX(3px); }
+      50% { transform: translateX(-2px); }
+      75% { transform: translateX(3px); }
+    100% { transform: translateX(-2px); }
+  }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    background-image: url("https://i.imgur.com/l7VHiQD.png");
+    display: flex;
+    align-items: flex-end;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left:50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50vh;
+    vertical-align: middle;
+    transform: translate(-50%, -50%);
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    height:100%;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title h1 {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.poke-info {
+    flex-direction: row;
+}

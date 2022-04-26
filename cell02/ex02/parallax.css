@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.text {
+	text-transform: uppercase;
+    text-align: center;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 20vw;
+}
+
+.p2 {
+    background-image: url('adele.jpg');
+}
+.p3 {
+    background-image: url('bye.jpg');
+}
+.h2 {
+    color: white;
+    font-size: 20vh;
+}
+
