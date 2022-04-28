@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+#meh {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    height: 2vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    height: 25vh;
+    width: 25vh;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

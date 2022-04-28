@@ -1,8 +1,5 @@
-html
-{
-    background-image: url("https://media.giphy.com/media/gx54W1mSpeYMg/giphy.gif");
-    background-repeat: no-repeat;
-    background-size: 100%;
+body {
+    margin: auto;
 }
 
 table {
@@ -12,7 +9,7 @@ table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    height: 10em;
+    height: 100vh;
 }
 
 th {

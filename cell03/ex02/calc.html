@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calc</title>
+</head>
+<body>
+<div id="inputs" class="inputs">
+    <input type="number" id="inputL" class="inputL">
+    <select name="symbols" id="symbol-select">
+        <option value="">--Choose operator--</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    <input type="number" id="inputR" class="inputR">
+</div>
+    <div id="calc" class="calculator">
+        <div class="screen">
+            <span id="screen">J'ai créé cette calculatrice stylée avant de me rendre compte que ce n'était pas ce qui a été demandé dans le sujet RIP 🪦 </span>
+        </div>
+        <div class="keys">
+            <div class="row">
+               <div class="number">
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+               </div>
+               <div class="symbol">
+                  <span>*</span>
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+               </div>
+               <div class="symbol">
+                  <span>-</span>
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  <span>1</span>
+                  <span>2</span>
+                  <span>3</span>
+               </div>
+               <div class="symbol">
+                  <span id="plus">+</span>
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  <span id="modulo">%</span>
+                  <span>0</span>
+                  <span id="divide">/</span>
+               </div>
+               <div id="result" class="symbol action">
+                  <span>Try me</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<script type="text/javascript" src="calc.js"></script>
+</html>
