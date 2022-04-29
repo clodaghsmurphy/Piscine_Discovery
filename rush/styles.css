@@ -1,3 +1,8 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+                
+
+
 .page {
     background: linear-gradient(to bottom, #1e5799 0%, #00c6ff 25%, #26c6da 55%, #7AE3EF 100%);
     height: 100vh;
@@ -101,9 +106,21 @@
 
   section {
       display: flex;
-  }
+      font-family: Pokemon, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 
+  }
+.clmurphy img {
+    display:none;
+}
+
+.barodrig img {
+    display:none;
+}
   .center-on-page {
+    display: flex;
     flex-direction: row;
     position: absolute;
     top: 50%;
@@ -112,6 +129,7 @@
   }
   /* Poké Styles */
   .pokeball {
+    margin: 50px;
     position: relative;
     width: 200px;
     height: 200px;

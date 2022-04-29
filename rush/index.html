@@ -29,13 +29,18 @@
         <h1>Choose Your Pokemon !</h1>
       
             <div class="center-on-page">
-  
-                <div id="clmurphy" onclick="p3_trigger()" class="pokeball">
+                <div class="clmurphy">
+                    <img id="clmurphypoke" src="assets/pikachu.png">
+                <div id="clmurphy" onmouseover="clmurphySpawn()" onmouseleave="clmurphyUnspawn()" onclick="p3_trigger()" class="pokeball">
                     <div class="pokeball__button"></div>
                 </div>
-                <div id="barodrig" onclick="p2_trigger()" class="pokeball">
+            </div>
+            <div class="barodrig">
+                <img id="barodrigpoke" src="assets/salameche.png">
+                <div id="barodrig" onmouseover="barodrigSpawn()" onmouseleave="barodrigUnspawn()" onclick="p2_trigger()" class="pokeball">
                     <div class="pokeball__button"></div>
                 </div>
+            </div>
                 
       
        
