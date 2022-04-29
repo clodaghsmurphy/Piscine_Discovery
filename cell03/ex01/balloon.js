@@ -30,10 +30,23 @@ balloon.addEventListener('click', function onClick(){
 });
 
 balloon.addEventListener('mouseleave', function mouse(){
+    
     if (index <= 0)
         index = 2;
     else
-     index --;
+    index --;
+    if (width + grow >= 200)
+     {
+         grow = grow - 5;
+         balloon.style.width = width + (grow - 5) + "px";
+         balloon.style.height = height + (grow - 5) + "px";
+     }
+     else
+     {
+         grow = 0;
+         balloon.style.width = width + grow + "px";
+         balloon.style.height = height + grow + "px";
+     }
     balloon.style.backgroundColor = colors[index];
     
 });
