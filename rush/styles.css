@@ -113,12 +113,25 @@
     justify-content: center;
 
   }
-.clmurphy img {
+#clmurphypoke {
     display:none;
+    height: 300px;
 }
 
-.barodrig img {
+#barodrigpoke {
     display:none;
+    height: 300px;
+
+}
+
+.barodrig {
+    height: 300px;
+}
+
+.pokeimgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
   .center-on-page {
     display: flex;
@@ -130,7 +143,7 @@
   }
   /* Poké Styles */
   .pokeball {
-    margin: 50px;
+    margin: 100px;
     position: relative;
     width: 200px;
     height: 200px;

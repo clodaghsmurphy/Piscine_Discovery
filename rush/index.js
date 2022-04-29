@@ -13,11 +13,11 @@ function clmurphyUnspawn() {
     document.getElementById("clmurphypoke").style.display = "none";
 }
 
-function clmurphySpawn() {
+function barodrigSpawn() {
     document.getElementById("barodrigpoke").style.display = "block";
 }
 
-function clmurphyUnspawn() {
+function barodrigUnspawn() {
     document.getElementById("barodrigpoke").style.display = "none";
 }
 
