@@ -1,5 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
-
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
                 
 
 
@@ -106,7 +106,8 @@
 
   section {
       display: flex;
-      font-family: Pokemon, sans-serif;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: yellow;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
