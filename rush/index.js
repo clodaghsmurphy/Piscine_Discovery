@@ -6,19 +6,19 @@ function p2_trigger()
 }
 
 function clmurphySpawn() {
-    document.getElementById("clmurphypoke").style.display = "block";
+    document.getElementById("clmurphypoke").style.visibility = "visible";
 }
 
 function clmurphyUnspawn() {
-    document.getElementById("clmurphypoke").style.display = "none";
+    document.getElementById("clmurphypoke").style.visibility = "hidden";
 }
 
 function barodrigSpawn() {
-    document.getElementById("barodrigpoke").style.display = "block";
+    document.getElementById("barodrigpoke").style.visibility = "visible";
 }
 
 function barodrigUnspawn() {
-    document.getElementById("barodrigpoke").style.display = "none";
+    document.getElementById("barodrigpoke").style.visibility = "hidden";
 }
 
 function p3_trigger()
