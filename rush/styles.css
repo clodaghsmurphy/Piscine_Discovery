@@ -6,8 +6,10 @@
 
 .p2 {
     background-color: red;
+    display : none;
 }
 
 .p3 {
     background-color: blueviolet;
+    display : none;
 }
