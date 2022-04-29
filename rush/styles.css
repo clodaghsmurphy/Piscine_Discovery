@@ -16,10 +16,10 @@
 
 .nav-menu {
     padding: 0;
-    display: block;
   }
   .nav-menu * {
     margin: 0;
+    display: none;
     padding: 0;
     list-style: none;
   }
